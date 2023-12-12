@@ -28,7 +28,6 @@ function createElementWithInnerText() {
     containerDiv.appendChild(headerWithInnerText);
     return containerDiv;
 }
-
 function createElementWithTextContent() {
     const containerDiv = document.createElement("div");
     containerDiv.classList.add("div-style");
